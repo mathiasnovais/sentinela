@@ -1,0 +1,9 @@
+name = "sentinela"
+compatibility_date = "2025-09-01"
+pages_build_output_dir = "public"
+
+[vars]
+# Segundos que o painel reaproveita a última leitura antes de consultar o Supabase de novo.
+CACHE_SECONDS = "60"
+# Para monitorar só alguns projetos: refs separados por vírgula. Vazio = todos.
+# SUPABASE_PROJECT_REFS = ""

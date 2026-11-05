@@ -1,0 +1,3 @@
+# Copie este arquivo para .dev.vars e cole o token dentro (só para testar no seu computador).
+# Em produção o token vai como segredo no Cloudflare: npx wrangler pages secret put SUPABASE_ACCESS_TOKEN
+SUPABASE_ACCESS_TOKEN=sbp_cole_o_token_aqui
